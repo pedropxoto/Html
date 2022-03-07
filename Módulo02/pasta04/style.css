@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-color: green;
+}
+#{
+    background-color: white;
+}
+#principal{
+    background-color: white;
+}
+.especial2:hover{
+    background-color: black;
+    color: white;
+}
+.especial:hover{
+    background-color: black;
+    color: white;
+}
+.especial:hover::after{
+    content: "<<";
+}
+.especial:hover::before{
+    content: ">>";
+}
+div>p{
+    display: none;
+}
+div:hover>p{
+    display: block;
+}
