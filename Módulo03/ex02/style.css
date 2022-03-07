@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'Passion One';
+    src:url(fontes/passione/PassionOne-Regular.ttf)
+}
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header{
+    padding-top: 60px;
+    background-color: black;
+}
+header>h1{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 4em;
+    font-family: sans-serif;
+}
+header>p{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header strong{
+    font-weight: strong;
+}
